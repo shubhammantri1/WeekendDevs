@@ -44,6 +44,20 @@
     z-index: 1; /* Keeps border behind the input */
 }
 
+/* Media queries for mobile */
+@media (max-width: 480px) {
+    .rainbow-input {
+        max-width: 200px;
+        width:auto;
+    }
+    .rainbow-border {
+        padding: 0.5px;
+        border-radius: 65px;
+        width: 100%;
+        height: 50px;
+    }
+}
+
 /* Smooth Rainbow Flow */
 @keyframes rainbowMove {
     0% { background-position: 0% 50%; }
